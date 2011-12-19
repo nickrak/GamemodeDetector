@@ -1,0 +1,8 @@
+name: GamemodeDetector
+main: me.tezlastorme.GamemodeDetector.GamemodeDetector
+version: 1.0
+commands:
+   gd:
+      description: This is a demo command.
+      permission: GamemodeDetector.gd
+      usage: /gd [player]
