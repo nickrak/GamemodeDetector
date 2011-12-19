@@ -18,7 +18,7 @@ public class GamemodeDetector extends JavaPlugin{
 	public void onEnable() {
 		PluginManager pm = getServer().getPluginManager();
 		pm.registerEvent(Event.Type.PLAYER_JOIN, pListener, Event.Priority.Normal, this);
-		log.info("[GamemodeDetector] GamemodeDetector v1.0 has been enabled!");
+		log.info("[GamemodeDetector] GamemodeDetector v1.1 has been enabled!");
 		
 	}
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args)
@@ -42,7 +42,7 @@ public class GamemodeDetector extends JavaPlugin{
 		return false;
     }
 	public void onDisable() {
-		log.info("[GamemodeDetector] GamemodeDetector v1.0 has been disabled!");
+		log.info("[GamemodeDetector] GamemodeDetector v1.1 has been disabled!");
 		
 	}
 
